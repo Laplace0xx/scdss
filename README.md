@@ -1,5 +1,13 @@
 # scdss
-Stroke is really serious, it has claimed a lot of lives, especially in Africa. The problem is many hospitals and primary healthcare centres in Africa do not have the equipment needed to diagnose stroke. This project is an offline cliical decision support system that helps in stroke diagnosis, the aim is to reduce mortality rate caused by shortage of these equipment.
+Stroke is a leading cause of mortality and disability worldwide, with a significant burden in low resource healthcare settings. Limited access to advanced diagnostic equipment in many primary healthcare centers can delay timely identification and intervention.
+
+This project presents an offline Clinical Decision Support System (CDSS) for stroke risk prediction using structured patient data. The system leverages machine learning models trained on publicly available datasets to assist healthcare practitioners in identifying high-risk cases.
+
+
+
+### Data source
+- Hugging face
+- Kaggle
 
 ### Reproduce this project
 
@@ -12,6 +20,11 @@ Install dependencies
 
     uv sync
 
+Run the application
 
+    uv run python main.py
+
+### License
+This project is licensed under the [Apache](/home/simon/Documents/Local/github/scdss/LICENSE) License
 
 
