@@ -22,7 +22,7 @@ Install dependencies
 
 Run the application
 
-    uv run python main.py
+    uv run python src/ui/main.py
 
 ### License
 This project is licensed under the [Apache](/home/simon/Documents/Local/github/scdss/LICENSE) License
