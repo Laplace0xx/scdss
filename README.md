@@ -6,7 +6,6 @@ This project presents an offline Clinical Decision Support System (CDSS) for str
 
 
 ### Data source
-- Hugging face
 - Kaggle
 
 ### Reproduce this project
