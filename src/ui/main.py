@@ -1,11 +1,22 @@
-import sys
-from PySide6.QtWidgets import QApplication, QWidget
+from PySide6.QtWidgets import QApplication, QMainWindow, QLabel
+from PySide6.QtCore import Qt
 
-app = QApplication(sys.argv)
 
-window = QWidget()
-window.setWindowTitle("SCDSS")
-window.resize(400, 300)
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("CDSS")
+        self.setFixedSize(320, 240)
+
+        label = QLabel("Hello world")
+        label.setAlignment(Qt.AlignCenter)
+
+        self.setCentralWidget(label)
+
+app = QApplication()
+
+window = MainWindow()
+
 window.show()
 
-sys.exit(app.exec())
+app.exec()
